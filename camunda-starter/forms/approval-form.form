@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "label": "Nome do Solicitante",
+      "key": "solicitante",
+      "type": "textfield",
+      "validate": {
+        "required": true
+      },
+      "id": "Field_1qpsrb9",
+      "layout": {
+        "row": "Row_0hc6fs8"
+      }
+    },
+    {
+      "label": "Descricao",
+      "key": "descricao",
+      "type": "textarea",
+      "validate": {
+        "required": true
+      },
+      "id": "Field_0n1vk68",
+      "layout": {
+        "row": "Row_1uvltsd"
+      }
+    },
+    {
+      "label": "Aprovado?",
+      "values": [
+        {
+          "label": "Sim",
+          "value": "sim"
+        },
+        {
+          "label": "Nao",
+          "value": "nao"
+        }
+      ],
+      "key": "aprovado",
+      "type": "select",
+      "validate": {
+        "required": true
+      },
+      "id": "Field_0ov9n38",
+      "layout": {
+        "row": "Row_0ugs1ot"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "approval-form",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.36.1"
+  },
+  "schemaVersion": 18
+}
